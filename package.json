@@ -2,9 +2,12 @@
   "name": "json-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.16.3"
+  },
+  "engines": {
+    "node": ">=14.x"
   }
 }
